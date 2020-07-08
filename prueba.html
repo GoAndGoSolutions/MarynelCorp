@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+
+    div{
+    display:flex;
+        position: absolute;
+        height: 400px;        
+    }
+    
+.column {
+
+    width: 100%;
+  }
+    #columna1{
+        background-color: aqua;
+    }
+     #columna2{
+        background-color: yellow;
+    }
+    #columna3{
+        background-color: red;
+    }
+
+@media screen and (min-width: 680px){
+  
+.column {
+    display: flex;
+    flex-wrap: wrap;
+  width: 33%;
+}
+}
+</style>
+<head>
+
+<body>
+
+<div class = "column" id="columna1">
+
+</div>
+
+<div class = "column" id="columna2">
+
+</div>
+
+<div class = "column" id="columna3">
+
+</div>
+
+</body>
+</html>

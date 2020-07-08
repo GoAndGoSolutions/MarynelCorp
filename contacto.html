@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name= "keywords" content="Marynel, cuidado del cabello, estilista, productos, Pro.co">
+    <meta name="description" content="Linea de productos para el cuidado del cabello">
+    <title>Marynel</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo_contacto.css">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximun-scale=3.0, minimun-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|El+Messiri|Lobster|Marcellus|Philosopher=swap" rel="stylesheet">
+</head>
+<body>
+   <header class="header-principal">
+      <nav class="nav-principal">
+          <div class="contenedor">
+             <div class="columna-40-60">
+                <span class ="icon-menu" id="btnMenu"><i class="fas fa-bars icon-bar"></i></span>
+                <ul class="menu" id="menu">
+                    <li class="menu-item"><a href="index.html" class="menu-link">Inicio</a></li>
+                    <li class="menu-item"><a href="nosotros.html" class="menu-link">Nosotros</a></li>
+                    <li class="menu-item"><a href="galeria.html" class="menu-link">Productos</a>
+                    <li class="menu-item"><a href="contacto.html" class="menu-link menu-link__select">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="columna-60-40">
+                <figure class="logo"><a href="index.html" class="logo-link"><img src="img/logo.jpg" alt="Marynel" class="img-logo"></a></figure>
+            </div>
+          </div>
+      </nav> 
+   </header>
+   <section class="banner">
+       <img class="img-banner" src="img/bannercontacto.jpg">
+       <div class="contenido-banner">
+           Dejanos tu mensaje!!
+       </div>
+   </section>
+<section class="contacto">
+       <h2 class="titulo-grupo">Contáctenos</h2>
+       <div class="contenedor">
+           <div class="columna-100-50 map-col">
+               <h3 class="titulo-columna">Dónde encontrarnos</h3>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.115182406837!2d-80.33905688566465!3d25.567834422839017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9c4f1e1315b65%3A0x85ba032529b3c7cf!2s21326%20SW%2089th%20Pl%2C%20Cutler%20Bay%2C%20FL%2033189%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1574637083832!5m2!1ses-419!2sar" class="mapa" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+           </div>
+           <div class="columna-100-50">
+               <form action="enviar.php" method="post" class="formulario">
+                <fieldset class="form-group">
+                    <legend for="formGroupExampleInput">Nombre:</legend>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese su Nombre" name="nombre" required = "required">
+                </fieldset>
+                <fieldset class="form-group">
+                    <legend for="formGroupExampleInput2">Mail:</legend>
+                    <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Ingrese el mail" name="mail" required = "required">
+                </fieldset>
+                <fieldset class="form-group">
+                    <legend for="formGroupExampleInput2">Teléfono:</legend>
+                    <input type="phone" class="form-control" id="formGroupExampleInput2" placeholder="Ingrese el telefono" name="telefono" required = "required">
+                </fieldset>
+                <fieldset class="form-group">
+                    <legend for="exampleFormControlTextarea1">Mensaje:</legend>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su mensaje"  name="mensaje" required = "required"></textarea>
+                </fieldset>
+                <input type="submit" class="btn" value="Enviar">
+            </form>
+           </div>        
+       </div>
+       <div class="boton_whatsap">
+            <span><i class="fab fa-whatsapp"></i></span>
+        </div>
+   </section>
+   <footer class= "footer-principal">
+      <div class = "contenedor">
+          <div class= "columna-100-50 footer">
+                  <h2 class="titulo-columna">Contacto</h2>
+                  <p class="desc-columna"><i class="iconos2 fas fa-phone"></i> (786)808-6562</p>
+                  <p class="desc-columna"><i class="iconos2 fab fa-whatsapp"></i> +1(786)286-3531 </p>
+                  <p class="desc-columna"><i class="iconos2 far fa-envelope"></i> marygonza75@gmail.com</p>
+          </div>
+          <div class= "columna-100-50 footer">
+              <h2 class="titulo-columna">Encuéntranos en:</h2>
+              <div class="social-icon">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon__link"><span class="iconos"><i class="fab fa-facebook-f"></i></span></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon__link"><span class="iconos"><i class="fab fa-instagram"></i></span></a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon__link"><span class="iconos"><i class="fab fa-twitter"></i></span></a>  
+              </div>
+          </div>
+          <p class="copy"><i class="iconos2 far fa-copyright"></i> CopyRight <br> Marynel Enterprise Corp <br> Cutler Bay FL, 33189</p>       
+      </div>
+   </footer>  
+<script src="js/menu.js"></script>    
+</body>
+</html>
